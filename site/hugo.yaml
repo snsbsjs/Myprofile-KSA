@@ -56,10 +56,7 @@ menu:
     - identifier: versions
       name: Versions
       weight: 5
-    - identifier: blog
-      name: Blog
-      pageRef: /blog
-      weight: 2
+   
     - identifier: more
       name: More
       weight: 4
@@ -103,11 +100,7 @@ menu:
       pageRef: /about
       parent: more
       weight: 1
-    - identifier: archives
-      name: Archives
-      pageRef: /archives
-      parent: more
-      weight: 2
+    
     - identifier: glossary
       name: Glossary
       pageRef: /glossary
@@ -179,24 +172,6 @@ params:
   editURL:
     enable: true
     base: "https://github.com/imfing/hextra/edit/main/docs/content"
-
-  blog:
-    list:
-      displayTags: true
-      # date | lastmod | publishDate | title | weight
-      sortBy: date
-      sortOrder: desc # or "asc"
-      # Pagination
-      pagerSize: 20
-
-    article:
-      displayPagination: true
-
-  archives:
-    # Source section used for the archives page.
-    section: blog
-    # Date format for archive list items.
-    dateFormat: "Jan 02"
 
   toc:
     displayTags: true
