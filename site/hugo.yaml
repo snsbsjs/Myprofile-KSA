@@ -65,20 +65,6 @@ menu:
       url: "https://github.com/snsbsjs"
       params:
         icon: github #49~67 코드 추가
-  sidebar:
-    - identifier: more
-      name: More
-      params:
-        type: separator
-      weight: 1
-    - identifier: about
-      name: "About"
-      pageRef: "/about"
-      weight: 2
-    - identifier: hugoDocs
-      name: "Hugo Docs ↗"
-      url: "https://gohugo.io/documentation/"
-      weight: 3
 
 params:
   description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
