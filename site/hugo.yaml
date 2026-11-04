@@ -46,63 +46,25 @@ markup:
         enable: true
 
 enableInlineShortcodes: true
-
 menu:
   main:
-    - identifier: versions
-      name: Versions
-      weight: 5
-   
-    - identifier: more
-      name: More
-      weight: 4
-    - identifier: showcase
-      name: Showcase
-      pageRef: /showcase
-      weight: 3
-      params:
-        type: link
-        icon: collection
+    - identifier: about
+      name: 소개
+      pageRef: /about
+      weight: 1
+    - identifier: projects
+      name: 활동
+      pageRef: /projects
+      weight: 2
     - name: Search
-      weight: 6
+      weight: 3
       params:
         type: search
-    - name: GitHub
-      weight: 7
-      url: "https://github.com/imfing/hextra"
+    - name: GitHub 
+      weight: 4
+      url: "https://github.com/snsbsjs"
       params:
-        icon: github
-    - identifier: development
-      name: Development ↗
-      url: https://imfing.github.io/hextra/versions/latest/
-      parent: versions
-      params:
-        type: link
-        icon: beaker
-    - identifier: v0.10
-      name: v0.10 ↗
-      url: https://imfing.github.io/hextra/versions/v0.10/
-      parent: versions
-    - identifier: v0.11
-      name: v0.11 ↗
-      url: https://imfing.github.io/hextra/versions/v0.11/
-      parent: versions
-    - identifier: v0.12
-      name: v0.12 ↗
-      url: https://imfing.github.io/hextra/versions/v0.12/
-      parent: versions
-    - identifier: about
-      name: About
-      pageRef: /about
-      parent: more
-      weight: 1
-    
-    - identifier: glossary
-      name: Glossary
-      pageRef: /glossary
-      parent: more
-      weight: 3
-
+        icon: github #49~67 코드 추가
   sidebar:
     - identifier: more
       name: More
