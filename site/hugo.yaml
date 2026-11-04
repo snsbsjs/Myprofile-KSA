@@ -17,7 +17,7 @@ outputs:
   page: [html, markdown]
   section: [html, rss, markdown]
 defaultContentLanguage: ko
-language:
+languages:
   ko:
     label: 한국어
     weight: 1
