@@ -134,11 +134,6 @@ params:
 
   externalLinkDecoration: true
 
-  banner:
-    key: 'announcement-v0.13'
-    message: |
-      Hextra **v0.13** is here! 🎉 Discover [what's new]({{% relref "blog/v0.13" %}})
-
   navbar:
     displayTitle: true
     displayLogo: true
