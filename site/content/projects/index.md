@@ -7,7 +7,7 @@ title: 대표 활동
 - **기간**: 2026년 1학기 ~ 현재
 - **상태**: 진행 중 (동아리에서 실제로 사용하며 기능을 개선하고 있음)
 - **형태**: 개인 프로젝트
-- **사용 기술**: HTML, CSS, Firebase Realtime Database, Netlify
+- **사용 기술**: HTML, CSS, JavaScript, Firebase Realtime Database, Netlify
 
 ## 목적
 
