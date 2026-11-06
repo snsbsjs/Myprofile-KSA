@@ -1,28 +1,24 @@
 ---
-title: Hextra Theme
+title: 김수아
 layout: hextra-home
 ---
 
-{{< hextra/hero-badge >}}
-  <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
-  <span>Free, open source</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
-  Build modern websites&nbsp;<br class="hx:sm:block hx:hidden" />with Markdown and Hugo
+  안녕하세요, 김수아입니다
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-  Fast, batteries-included Hugo theme&nbsp;<br class="hx:sm:block hx:hidden" />for creating beautiful static websites
+  전북대학교 컴퓨터인공지능학부 2학년입니다.
 {{< /hextra/hero-subtitle >}}
 </div>
 
-
-<div class="hx:mt-6"></div>
+<div class="hx:mb-12 hx:flex hx:flex-wrap hx:gap-3">
+{{< hextra/hero-button text="소개 보기" link="about" >}}
+{{< hextra/hero-button text="활동 보기" link="projects" >}}
+</div>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
