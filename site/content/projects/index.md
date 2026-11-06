@@ -51,3 +51,9 @@ title: 대표 활동
 - 신청 여부를 바로 확인할 수 있는 실시간 신청 명단과 본인 신청 취소 기능
 - 하반기 모임·휴무 일정 달력
 - 관리자 모드: 정원·신청 시간 설정, 명단 초기화, 카카오톡 공유용 명단 복사
+
+## 결과물
+
+- 운영 중인 사이트: <https://highcock-meeting.netlify.app/>
+- 소스 코드: <https://github.com/snsbsjs/club-meeting-signup>
+  - 공개용 코드에서는 Firebase 설정값을 자리표시자로 바꿔 두었습니다.
