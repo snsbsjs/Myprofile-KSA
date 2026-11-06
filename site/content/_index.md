@@ -15,7 +15,7 @@ layout: hextra-home
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="hx:mb-12 hx:flex hx:flex-wrap hx:gap-3">
+<div class="hx:mb-12 hx:flex hx:flex-wrap hx:gap-4">
 {{< hextra/hero-button text="소개 보기" link="about" >}}
 {{< hextra/hero-button text="활동 보기" link="projects" >}}
 </div>
