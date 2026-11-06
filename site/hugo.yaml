@@ -1,6 +1,6 @@
 # Configuration
 baseURL: "https://example.com/"
-title: "Hextra"
+title: "Profile-KSA"
 
 enableRobotsTXT: true
 # Parse Git commit
@@ -21,7 +21,7 @@ languages:
   ko:
     label: 한국어
     weight: 1
-    title: hextra
+    title: Profile-KSA
     
 module:
   hugoVersion:
