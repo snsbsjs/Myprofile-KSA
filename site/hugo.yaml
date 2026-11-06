@@ -73,7 +73,7 @@ params:
 
   navbar:
     displayTitle: true
-    displayLogo: true
+    displayLogo: false
     logo:
       path: images/logo.svg
       dark: images/logo-dark.svg
