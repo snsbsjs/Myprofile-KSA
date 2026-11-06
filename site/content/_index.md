@@ -16,8 +16,7 @@ layout: hextra-home
 </div>
 
 <div class="hx:mb-12 hx:flex hx:flex-wrap hx:gap-4">
-{{< hextra/hero-button text="소개 보기" link="about" >}}
-{{< hextra/hero-button text="활동 보기" link="projects" >}}
+{{< hextra/hero-button text="깃허브 들어가기" link="https://github.com/snsbsjs" >}}
 </div>
 
 {{< hextra/feature-grid cols="2" >}}
