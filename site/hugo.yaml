@@ -12,6 +12,8 @@ hasCJKLanguage: true
 #   googleAnalytics:
 #     ID: G-MEASUREMENT_ID
 
+disableKinds: [taxonomy, term]
+
 outputs:
   home: [html, llms]
   page: [html, markdown]
