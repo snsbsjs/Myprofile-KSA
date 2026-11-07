@@ -1,20 +1,10 @@
 ---
-title: About
+title: 소개
 toc: false
 ---
 
-Hextra is designed to be a simple, fast, and flexible theme for building modern static websites. It is especially well-suited for documentation websites but can also be used for various types of sites, such as blogs, portfolios, and more.
+## 관심 분야: 앱·웹 개발
 
-Hugo, like Jekyll, is a static site generator. What sets Hugo apart is that it is a single binary, making it easy to install and run on various platforms. It is also extremely fast and reliable, capable of rendering a site with thousands of pages in milliseconds.
+계열제로 입학해 학과가 정해지지 않았던 1학년 2학기, 웹프로그래밍 기초 수업을 들으며 앱·웹 개발에 관심을 갖게 되었습니다. 코드를 쓰면 결과가 바로 화면에 보이고, 직접 만든 사이트가 실제로 돌아가는 것이 재미있어서 그 수업을 듣고 컴퓨터인공지능학부를 선택했습니다.
 
-Hextra is built with a mindset focused on having a minimal footprint. To get started, no extra dependencies like Node.js packages are required; all you need is a single YAML configuration file, along with your Markdown content. Thus, we can focus on writing quality content instead of setting up tooling.
-
-## Credits
-
-Hextra cannot be built without the following tools and inspirations:
-
-- [Hugo](https://gohugo.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Heroicons](https://heroicons.com/)
-- [Nextra](https://nextra.vercel.app/)
-- [Next.js](https://nextjs.org/)
+지금은 그 흥미를 살려 동아리의 불편을 해결하는 [정기모임 신청 사이트](../projects/)를 직접 만들어 운영하고 있습니다.
