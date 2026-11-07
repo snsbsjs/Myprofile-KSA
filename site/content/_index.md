@@ -24,14 +24,14 @@ layout: hextra-home
     title="소개"
     subtitle="관심 분야와 학습 목표, 현재 공부하고 있는 기술을 소개합니다."
     link="about"
-    class="hx:hover:bg-gray-100 hx:dark:hover:bg-neutral-800"
+    class="home-card hx:hover:bg-gray-100 hx:dark:hover:bg-neutral-800"
     style="min-height: 200px;"
   >}}
   {{< hextra/feature-card
     title="대표 활동: 동아리 정기모임 신청 사이트"
     subtitle="카카오톡 투표로 받던 정기모임 신청의 정원 초과 문제를 해결하기 위해 직접 기획하고 운영하는 웹사이트입니다."
     link="projects"
-    class="hx:hover:bg-gray-100 hx:dark:hover:bg-neutral-800"
+    class="home-card hx:hover:bg-gray-100 hx:dark:hover:bg-neutral-800"
     style="min-height: 200px;"
   >}}
 {{< /hextra/feature-grid >}}

@@ -1,0 +1,7 @@
+/* 홈 화면 카드: 제목과 설명을 가운데 정렬 */
+.home-card {
+  text-align: center;
+}
+.home-card h3 {
+  justify-content: center;
+}
