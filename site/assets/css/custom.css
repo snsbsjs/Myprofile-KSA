@@ -12,3 +12,10 @@
   display: flex;
   align-items: center;
 }
+
+
+/* 한글 단어가 줄 끝에서 중간에 끊기지 않도록 단어 단위로 줄바꿈 */
+body {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
