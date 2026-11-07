@@ -39,6 +39,7 @@ title: 대표 활동
    - **신청 명단 공개**: 처음에는 신청 명단을 임원진만 확인할 수 있었는데, 신청이 되었는지 물어보는 부원들이 있어 부원들도 직접 명단을 보고 신청 여부를 확인할 수 있도록 바꿨습니다.
    - **일정 달력**: 부원들이 정기모임 기간과 행사 일정을 한눈에 확인할 수 있도록 달력을 추가했습니다.
    - **모임 닫기**: 장소를 불가피하게 사용할 수 없거나 정기모임 활동을 쉬는 기간에는 공지를 해도 신청하는 부원들이 있었습니다. 그래서 관리자가 쉬는 사유와 기간을 정해 신청을 닫으면, 그 기간에는 신청 양식 대신 "이번 모임은 쉬어갑니다" 같은 안내가 보이도록 하는 기능을 추가했습니다.
+        <details class="hx:rounded-lg hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-2 hx:mt-2"><summary class="hx:cursor-pointer hx:p-1 hx:rounded-sm hx:hover:bg-gray-100 hx:dark:hover:bg-neutral-800"><strong>이미지 보기</strong></summary><img src="meeting-closed.png" alt="모임을 닫은 기간에 신청 양식 대신 사유와 기간이 담긴 쉬어감 안내가 표시된 화면" loading="lazy" style="width: 100%; max-width: 360px; height: auto;"></details>
 
 ### 기술 선택 이유
 
