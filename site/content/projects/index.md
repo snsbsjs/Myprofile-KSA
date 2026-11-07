@@ -34,6 +34,7 @@ title: 대표 활동
 3. **Firebase로 전환**: 사용하면서 편의 기능을 추가하려고 하자 스프레드시트 방식으로는 한계가 보여, 데이터 저장을 Firebase Realtime Database로 바꿨습니다.
 4. **기능 추가**: 지금도 필요한 기능을 하나씩 추가하며 사용하고 있습니다. 대표적인 개선은 다음과 같습니다.
    - **관리자 설정 화면**: 처음에는 정원 같은 설정을 바꾸려면 제가 직접 코드를 수정해야 해서 저만 바꿀 수 있었습니다. 임원진도 직접 설정을 바꿀 수 있도록, 사이트 안의 관리자 모드에서 정원과 신청 시간을 바로 설정하는 기능을 만들었습니다.
+        <details class="hx:rounded-lg hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-2 hx:mt-2"><summary class="hx:cursor-pointer hx:p-1 hx:rounded-sm hx:hover:bg-gray-100 hx:dark:hover:bg-neutral-800"><strong>이미지 보기</strong></summary><img src="admin-settings.png" alt="관리자 모드의 모임 닫기, 신청 조건 설정, 명단 관리 화면" loading="lazy" style="width: 100%; max-width: 360px; height: auto;"></details>
    - **모임 날짜 자동 표시**: 처음에는 신청 카드에 "월요일", "수요일"처럼 요일만 표시했지만, 다가오는 모임 날짜를 계산해 "0월 00일(월) 정기모임"처럼 날짜까지 보이도록 바꿨습니다.
    - **신청 명단 공개**: 처음에는 신청 명단을 임원진만 확인할 수 있었는데, 신청이 되었는지 물어보는 부원들이 있어 부원들도 직접 명단을 보고 신청 여부를 확인할 수 있도록 바꿨습니다.
    - **일정 달력**: 부원들이 정기모임 기간과 행사 일정을 한눈에 확인할 수 있도록 달력을 추가했습니다.
