@@ -111,3 +111,22 @@ git push
 **실패했을 때**: 빨간 X가 뜬 실행을 눌러 실패한 단계의 로그를 확인합니다.
 - `REF_NOT_FOUND`처럼 `ERROR`가 있으면 내용·설정 문제이므로 파일을 고쳐 다시 push합니다.
 - deploy 단계의 `Timeout reached`처럼 일시적인 문제면 **Re-run failed jobs**로 다시 실행합니다.
+
+
+## 출처와 라이선스
+
+| 자료 | 사용 위치 | 구분 | 출처 | 이용 조건 |
+|---|---|---|---|---|
+| Hextra 테마 | `site/themes/template/`, 저장소 최상위의 원본 파일 | 외부 자료 | <https://github.com/imfing/hextra> | MIT License, Copyright (c) 2023 Xin. 원문은 [`LICENSE`](./LICENSE)에 그대로 유지 |
+| 배포 준비 스크립트와 워크플로 | `.github/pages_build.py`, `.github/workflows/hugo-pages.yml`, `site/pages.json` | 외부 자료 (수업 제공) | 수업 제공 `prepare_github_pages.py` 3.1 | 수업 자료 |
+| 사이트 문구 (홈·소개·활동) | `site/content/` | 직접 제작 + AI 도움 | 본인 경험과 내용을 바탕으로 작성 | 아래 AI 활용 범위 참고 |
+| 사이트 설정 수정 | `site/hugo.yaml`, `site/content/_index.md` | 직접 제작 + AI 도움 | 본인 판단으로 적용 | 아래 AI 활용 범위 참고 |
+| 관리자 설정 화면 캡처 | `site/content/projects/admin-settings.png` | 직접 제작 | 본인이 운영 중인 동아리 신청 사이트를 직접 캡처 | 부원 이름 등 개인정보가 보이지 않는 화면으로 촬영 |
+
+사이트 아래쪽의 "Powered by Hextra" 표시는 테마 출처 고지로 그대로 두었습니다.
+
+### AI 활용 범위
+
+- **사용 도구**: Claude (claude.ai)
+- **사이트 문구**: 활동 내용, 관심 분야, 목표 등 모든 사실은 본인이 제공했고, AI가 문장을 정리한 초안을 본인이 검토·수정해 반영했습니다.
+- **설정과 오류 해결**: 데모 콘텐츠 정리 방법, 메뉴·카드·이미지 펼침 상자 설정, 빌드 실패 원인 분석에 AI의 제안을 참고했고, 적용 여부는 본인이 판단하고 Actions 결과와 공개 사이트에서 직접 확인했습니다.
