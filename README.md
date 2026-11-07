@@ -1,49 +1,30 @@
-<div align="center">
-  <h1 align="center">Hextra</h1>
-  <sup align="center"><a href="README.md">English</a> | <a href="README.zh-cn.md">简体中文</a> ｜ <a href="README.fa.md">فارسی</a></sup>
-  <p align="center">Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.</p>
+# Profile-KSA
 
-Demo → [imfing.github.io/hextra](https://imfing.github.io/hextra/)
-</div>
+전북대학교 컴퓨터인공지능학부 2학년 김수아의 개인 포트폴리오 사이트입니다.
+2026학년도 초급프로젝트 과제 1로, Hugo 테마 **Hextra**를 사용해 만들고 GitHub Actions로 GitHub Pages에 자동 배포합니다.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/5097752/263550533-c18343ca-3848-4230-b5c0-ee989d7916da.png">
-  <img alt="Hextra" src="https://user-images.githubusercontent.com/5097752/263550528-663599f9-17a1-4686-b5c4-3da233b5034d.png">
-</picture>
+- **사이트**: <https://snsbsjs.github.io/Myprofile-KSA/>
+- **저장소**: <https://github.com/snsbsjs/Myprofile-KSA>
 
-<div align="right">
-<a href="https://github.com/imfing/hextra/actions/workflows/pages.yml"><img alt="GitHub Actions Status" src="https://github.com/imfing/hextra/actions/workflows/pages.yml/badge.svg"></a> <a href="https://app.netlify.com/sites/hugo-hextra/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/61d6e55a-2447-487e-b59f-c9537e5df175/deploy-status"></a>
-</div>
+## 사이트 구성
 
-## Features
+| 메뉴 | 주소 | 내용 |
+|---|---|---|
+| 홈 | `/` | 이름과 짧은 소개, 소개·대표 활동 카드, GitHub 버튼 |
+| 소개 | `/about/` | 관심 분야, 학습 목표와 실행 계획, 사용하는 기술과 도구 |
+| 활동 | `/projects/` | 대표 활동: 동아리 정기모임 신청 사이트 |
 
-- **Beautiful Design** - Inspired by Nextra, Hextra utilizes Tailwind CSS to offer a modern design that makes your site look outstanding.
-- **Responsive Layout and Dark Mode** - It looks great on all devices, from mobile to desktop. Dark mode is also supported to accommodate various lighting conditions.
-- **Fast and Lightweight** - Powered by Hugo, a lightning-fast static-site generator housed in a single binary file, Hextra keeps its footprint minimal. No JavaScript or Node.js are needed to use it.
-- **Full-text Search** - Built-in offline full-text search powered by FlexSearch, no extra configuration required.
-- **Battery-included** - Markdown, syntax highlighting, LaTeX math formulae, diagrams and Shortcodes elements to enhance your content. Table of contents, breadcrumbs, pagination, sidebar navigation and more are all automatically generated.
-- **Multi-language and SEO Ready** - Multi-language sites made easy with Hugo's multilingual mode. Out-of-the-box support is included for SEO tags, Open Graph, and Twitter Cards.
-- **Accessibility Support** - Interactive components use semantic markup, keyboard-friendly behavior, and automated accessibility checks to keep the UI usable across common assistive workflows.
+## 폴더 구조
 
-## Quick Start
+실제 사이트는 `site/` 폴더 안에 있습니다. 저장소 최상위의 나머지 파일(`layouts/`, `docs/` 등)은 처음 내려받은 Hextra 원본 ZIP의 파일이며, 빌드에는 `site/` 폴더만 사용합니다.
 
-### Use the template
-
-Using the [Hextra Starter Template](https://github.com/imfing/hextra-starter-template) is the simplest method to bootstrap a new website with Hextra theme. Get started by clicking the "Use this template" button on the template repository page.
-
-The template repository also includes a [GitHub Actions workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) for deploying your website to GitHub Pages.
-
-<img alt="Hextra Starter Template" src="https://user-images.githubusercontent.com/5097752/263551418-c403b9a9-a76c-47a6-8466-513d772ef0b7.jpg" width=600/>
-
-### Usage
-
-Refer to the [documentation](https://imfing.github.io/hextra/docs) for more information.
-
-## Contributing
-
-Contributions are welcome.
-Check out the [contributing guide](.github/CONTRIBUTING.md) to get started.
-
-## License
-
-[MIT License](./LICENSE)
+| 경로 | 역할 |
+|---|---|
+| `site/hugo.yaml` | 사이트 설정 (사이트 이름, 메뉴, 언어 등) |
+| `site/pages.json` | GitHub Pages용 배포 주소(baseURL) 설정. 준비 스크립트가 생성 |
+| `site/content/_index.md` | 홈 화면 |
+| `site/content/about/index.md` | 소개 페이지 |
+| `site/content/projects/index.md` | 활동 페이지 |
+| `site/themes/template/` | Hextra 테마 파일 |
+| `.github/workflows/hugo-pages.yml` | GitHub Actions 자동 빌드·배포 설정 |
+| `.github/pages_build.py` | Actions에서 실행하는 빌드 스크립트 (수업 제공 `prepare_github_pages.py`의 사본) |
