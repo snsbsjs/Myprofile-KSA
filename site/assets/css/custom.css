@@ -5,3 +5,10 @@
 .home-card h3 {
   justify-content: center;
 }
+
+
+/* 홈 화면 카드: 내용을 카드 높이의 세로 가운데에 배치 */
+.home-card {
+  display: flex;
+  align-items: center;
+}
