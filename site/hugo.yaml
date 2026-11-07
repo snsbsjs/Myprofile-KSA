@@ -91,7 +91,7 @@ params:
 
   footer:
     enable: true
-    displayCopyright: true
+    displayCopyright: false
     displayPoweredBy: true
     width: normal
 
