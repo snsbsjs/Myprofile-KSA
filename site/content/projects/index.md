@@ -58,7 +58,6 @@ title: 대표 활동
 
 - 운영 중인 사이트: <https://highcock-meeting.netlify.app/>
 - 소스 코드: <https://github.com/snsbsjs/club-meeting-signup>
-  - 공개용 코드에서는 Firebase 설정값을 자리표시자로 바꿔 두었습니다.
 
 
 ## 배운 점

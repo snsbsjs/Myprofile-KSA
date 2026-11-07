@@ -32,7 +32,7 @@ toc: false
 
 ### Firebase Realtime Database
 
-동아리 사이트의 신청 명단을 저장하는 데 사용하고 있습니다. 처음에는 Google Apps Script와 스프레드시트로 명단을 기록했지만, 기능을 늘리면서 여러 사람이 동시에 신청해도 명단이 바로 반영되는 Firebase로 바꿨습니다.
+동아리 사이트의 신청 명단을 저장하는 데 사용하고 있습니다.
 
 ### Netlify
 
