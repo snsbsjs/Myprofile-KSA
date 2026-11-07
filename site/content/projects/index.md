@@ -35,9 +35,9 @@ title: 대표 활동
 4. **기능 추가**: 지금도 필요한 기능을 하나씩 추가하며 사용하고 있습니다. 대표적인 개선은 다음과 같습니다.
    - **관리자 설정 화면**: 처음에는 정원 같은 설정을 바꾸려면 제가 직접 코드를 수정해야 해서 저만 바꿀 수 있었습니다. 임원진도 직접 설정을 바꿀 수 있도록, 사이트 안의 관리자 모드에서 정원과 신청 시간을 바로 설정하는 기능을 만들었습니다.
         <details class="hx:rounded-lg hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-2 hx:mt-2"><summary class="hx:cursor-pointer hx:p-1 hx:rounded-sm hx:hover:bg-gray-100 hx:dark:hover:bg-neutral-800"><strong>이미지 보기</strong></summary><img src="admin-settings.png" alt="관리자 모드의 모임 닫기, 신청 조건 설정, 명단 관리 화면" loading="lazy" style="width: 100%; max-width: 360px; height: auto;"></details>
-   - **모임 날짜 자동 표시**: 처음에는 신청 카드에 "월요일", "수요일"처럼 요일만 표시했지만, 다가오는 모임 날짜를 계산해 "0월 00일(월) 정기모임"처럼 날짜까지 보이도록 바꿨습니다.
    - **신청 명단 공개**: 처음에는 신청 명단을 임원진만 확인할 수 있었는데, 신청이 되었는지 물어보는 부원들이 있어 부원들도 직접 명단을 보고 신청 여부를 확인할 수 있도록 바꿨습니다.
    - **일정 달력**: 부원들이 정기모임 기간과 행사 일정을 한눈에 확인할 수 있도록 달력을 추가했습니다.
+        <details class="hx:rounded-lg hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-2 hx:mt-2"><summary class="hx:cursor-pointer hx:p-1 hx:rounded-sm hx:hover:bg-gray-100 hx:dark:hover:bg-neutral-800"><strong>이미지 보기</strong></summary><img src="schedule-calendar.png" alt="2026년 10월의 정기모임, 월례대회, 공휴일, 중간고사 기간이 표시된 하반기 모임 일정 달력 화면" loading="lazy" style="width: 100%; max-width: 360px; height: auto;"></details>
    - **모임 닫기**: 장소를 불가피하게 사용할 수 없거나 정기모임 활동을 쉬는 기간에는 공지를 해도 신청하는 부원들이 있었습니다. 그래서 관리자가 쉬는 사유와 기간을 정해 신청을 닫으면, 그 기간에는 신청 양식 대신 "이번 모임은 쉬어갑니다" 같은 안내가 보이도록 하는 기능을 추가했습니다.
         <details class="hx:rounded-lg hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-2 hx:mt-2"><summary class="hx:cursor-pointer hx:p-1 hx:rounded-sm hx:hover:bg-gray-100 hx:dark:hover:bg-neutral-800"><strong>이미지 보기</strong></summary><img src="meeting-closed.png" alt="모임을 닫은 기간에 신청 양식 대신 사유와 기간이 담긴 쉬어감 안내가 표시된 화면" loading="lazy" style="width: 100%; max-width: 360px; height: auto;"></details>
 
@@ -53,7 +53,7 @@ title: 대표 활동
 - 확정자가 취소하면 대기자가 자동으로 확정으로 올라가는 기능
 - 신청 여부를 바로 확인할 수 있는 실시간 신청 명단과 본인 신청 취소 기능
 - 하반기 모임·휴무 일정 달력
-- 관리자 모드: 정원·신청 시간 설정, 명단 초기화, 카카오톡 공유용 명단 복사
+- 관리자 모드: 정원·신청 시간 설정, 달력 일정 설정, 사유·기간을 정한 모임 닫기, 명단 초기화, 카카오톡 공유용 명단 복사
 
 
 ## 결과물
