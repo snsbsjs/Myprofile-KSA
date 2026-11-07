@@ -78,3 +78,36 @@ hugo server --config hugo.yaml,pages.json --theme template --themesDir themes
 ~~~powershell
 hugo --config hugo.yaml,pages.json --theme template --themesDir themes
 ~~~
+
+## 내용 수정하기
+
+| 바꾸고 싶은 것 | 수정할 파일 |
+|---|---|
+| 홈 화면 문구·카드·GitHub 버튼 | `site/content/_index.md` |
+| 소개 페이지 | `site/content/about/index.md` |
+| 활동 페이지 | `site/content/projects/index.md` |
+| 사이트 이름, 상단 메뉴, 사이트 설명 | `site/hugo.yaml` |
+
+페이지 내용은 마크다운(Markdown)으로 작성합니다. `##`는 소제목, `-`는 목록, `**글자**`는 굵은 글씨입니다.
+
+## 재배포와 확인
+
+`main` 브랜치에 push하면 GitHub Actions가 자동으로 빌드하고 GitHub Pages에 배포합니다.
+
+1. 파일을 수정하고 저장합니다.
+2. 바뀐 파일을 커밋하고 push합니다.
+
+~~~powershell
+git status
+git add 수정한파일경로
+git commit -m "무엇을 바꿨는지 설명하는 메시지"
+git push
+~~~
+
+3. 저장소의 **Actions** 탭에서 방금 push한 커밋으로 실행이 시작되었는지 확인합니다.
+4. 실행 안의 **build**와 **deploy**가 모두 초록색 체크가 될 때까지 기다립니다. (보통 1~3분)
+5. 시크릿 창에서 <https://snsbsjs.github.io/Myprofile-KSA/> 를 열어 바뀐 내용을 확인합니다. 예전 화면이 보이면 `Ctrl + F5`로 새로고침합니다.
+
+**실패했을 때**: 빨간 X가 뜬 실행을 눌러 실패한 단계의 로그를 확인합니다.
+- `REF_NOT_FOUND`처럼 `ERROR`가 있으면 내용·설정 문제이므로 파일을 고쳐 다시 push합니다.
+- deploy 단계의 `Timeout reached`처럼 일시적인 문제면 **Re-run failed jobs**로 다시 실행합니다.
